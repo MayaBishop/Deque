@@ -1,0 +1,8 @@
+#testing front and back commands with a deque of 1 and an empty deque
+enqueue_front 1
+front 1
+back 1
+clear
+front 1
+back 1
+clear

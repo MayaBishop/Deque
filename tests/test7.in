@@ -1,0 +1,12 @@
+#testing clearing on a deque of 1 and front and back commands
+enqueue_front 1
+clear
+print
+enqueue_front 1
+enqueue_back 2
+enqueue_front 3
+front 1
+front 3
+print
+back 3
+back 2

@@ -1,0 +1,18 @@
+#tests add an item to the front and back of the deque once there is an item in the deque
+
+#start with first item at the front
+enqueue_front 1
+enqueue_back 2
+enqueue_front 3
+print
+enqueue_back 4
+print
+clear
+
+#starts with first item at the back
+enqueue_back 1
+enqueue_front 2
+enqueue_back 3
+print
+enqueue_front 4
+print
